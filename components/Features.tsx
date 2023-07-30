@@ -21,7 +21,7 @@ const Features = () => {
             <div className="w-full flex items-center justify-center gap-10 flex-wrap mdl:flex-nowrap mt-20">
                 <div className="w-full flex flex-col gap-6 lgl:justify-between items-begin">
                     <p className="font-titleFont text-textRed text-2xl font-bold">Deep dive into what you like</p>
-                    <p className="text-xl">Use our "Read More" to deep dive into the interesting parts of any article. <br />
+                    <p className="text-xl">Use our Read More to deep dive into the interesting parts of any article. <br />
                     Or jump straight to that section in any Youtube Video.</p>
                 </div>
                 <div className="max-w-imageContainer">

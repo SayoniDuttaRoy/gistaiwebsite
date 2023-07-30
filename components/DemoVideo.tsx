@@ -9,7 +9,7 @@ const DemoVideo = () => {
                 <ol className="list-decimal list-inside text-xl">
                     <li className="p-1">Install the <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc" className="underline text-blue-500">Gist AI</a> extension from the Chrome Web Store</li>
                     <li className="p-1">Open any webpage or Youtube video and click on the extension icon to summarize it</li>
-                    <li className="p-1">Click on 'Read More' button to dive deeper into parts that interest you</li>
+                    <li className="p-1">Click on Read More button to dive deeper into parts that interest you</li>
                 </ol>
             </div>
             <div>
