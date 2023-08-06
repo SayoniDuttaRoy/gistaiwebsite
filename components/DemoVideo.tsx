@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
+import { keyPointsFromWebpageAndYt } from "@/public/assets";
 
 const DemoVideo = () => {
     return (
@@ -13,8 +14,8 @@ const DemoVideo = () => {
                 </ol>
             </div>
             <div>
-                <video controls width="100%" muted loop className="rounded-lg">
-                    <source src="/assets/videos/demovideo1.mp4" type="video/mp4" />
+                <video controls width="100%" loop className="rounded-lg">
+                    <source src="/assets/videos/DemoVideowithYT.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>

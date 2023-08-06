@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { extractKeyPoints } from "@/public/assets";
+import { jumpToTimeInYt, keyPointsFromWebpageAndYt, splitArticlesVideosIntoBlocks } from "@/public/assets";
 
 const Features = () => {
     return (
@@ -11,10 +11,10 @@ const Features = () => {
             <div className="w-full flex items-center justify-center gap-10 flex-wrap mdl:flex-nowrap">
                 <div className="w-full flex flex-col gap-6 lgl:justify-between items-begin">
                     <p className="font-titleFont text-textRed text-2xl font-bold">Save time</p>
-                    <p className="text-xl">Instantly extract key points from long articles or Youtube videos in 1 click.</p>
+                    <p className="text-xl">Instantly extracts key points from long articles or Youtube videos in 1 click.</p>
                 </div>
                 <div className="max-w-imageContainer">
-                    <Image className="object-contain" src={extractKeyPoints} alt="extract key point image" />
+                    <Image className="object-contain" src={keyPointsFromWebpageAndYt} alt="extract key points from webpage and youtube videos" />
                 </div>
             </div>
             {/* Feature 2 */}
@@ -22,10 +22,10 @@ const Features = () => {
                 <div className="w-full flex flex-col gap-6 lgl:justify-between items-begin">
                     <p className="font-titleFont text-textRed text-2xl font-bold">Deep dive into what you like</p>
                     <p className="text-xl">Use our Read More to deep dive into the interesting parts of any article. <br />
-                    Or jump straight to that section in any Youtube Video.</p>
+                    Or forward straight to that time in any Youtube Video.</p>
                 </div>
                 <div className="max-w-imageContainer">
-                    <Image className="object-contain" src={extractKeyPoints} alt="extract key point image" />
+                    <Image className="object-contain" src={jumpToTimeInYt} alt="forward to timestamp in youtube video" />
                 </div>
             </div>
             {/* Feature 3 */}
@@ -35,7 +35,7 @@ const Features = () => {
                     <p className="text-xl">Our research backed techniques improve comprehension by breaking down long articles into smaller parts.</p>
                 </div>
                 <div className="max-w-imageContainer">
-                    <Image className="object-contain" src={extractKeyPoints} alt="extract key point image" />
+                    <Image className="object-contain" src={splitArticlesVideosIntoBlocks} alt="splits articles and videos into small blocks" />
                 </div>
             </div>
         </section>

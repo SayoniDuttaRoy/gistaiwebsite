@@ -10,7 +10,7 @@ const SocialIcons = () => {
                     <TfiEmail></TfiEmail>
                 </span>
             </a>
-            <a href="https://www.linkedin.com/in/sayoni-dutta-roy-137187167/" target="__blank">
+            <a href="https://www.linkedin.com/company/gist-ai-tech/" target="__blank">
                 <span className="w-10 h-10 text-xl rounded-full inline-flex items-center justify-center bg-bgLightPink">
                     <TfiLinkedin></TfiLinkedin>
                 </span>

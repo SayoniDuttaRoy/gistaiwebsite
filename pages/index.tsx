@@ -17,7 +17,8 @@ export default function Home() {
     <>
     <Head>
       <title>Gist AI</title>
-      <meta name="description" content="Landing page for ChatGPT powered Chrome Extension for summarizing webpages and Youtube Videos" />
+      <meta name="title" content="Gist AI - A ChatGPT powered free Chrome Extension for summarizing webpages and Youtube Videos" />
+      <meta name="description" content="Landing page for Gist AI - A ChatGPT powered free Chrome Extension for summarizing webpages and Youtube Videos. Works on all sites." />
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <link rel="icon" href='/favicon.png' />
     </Head>

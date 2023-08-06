@@ -10,8 +10,8 @@ const Banner = () => {
                 <span>Skim the rest</span>
             </h1>
             <p className="text-2xl text-textGrey text-center font-medium max-w-[650px] mt-4">
-                Summarize any web article or Youtube video in 1 click using ChatGPT AI. 
-                <br/>Dive deeper into sections that interest you. 
+                Summarize any webpage or Youtube video in 1 click using ChatGPT AI. 
+                <br/>Even better, read more details about the summary or jump straight to that time in a Youtube video. 
             </p>
             <div>
                 <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc" target="__blank">
