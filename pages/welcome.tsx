@@ -17,9 +17,9 @@ export default function Welcome() {
         <main className="font-bodyFont overflow-x-hidden overflow-y-scroll px-5">
             <section id="home" className="max-w-contentContainer mx-auto flex flex-col gap-4 items-center mt-10">
                 <h1 className="text-4xl font-titleFont font-semibold flex gap-4 mt-10">
-                    Welcome to <span className="text-textRed">Gist</span> AI
+                    Welcome to Gist AI
                 </h1>
-                <p className="text-2xl text-textGrey text-center font-medium max-w-[650px] mt-5">Summarize any webpage or Youtube video in 1 click using ChatGPT AI
+                <p className="text-2xl text-textGrey text-center font-medium max-w-[650px] mt-5">Summarize any webpage or Youtube video in 1 click using ChatGPT AI.
                 <br/>Even better, read more details about the summary or skip right to that moment in the Youtube video.
                 </p>
                 <a href="https://education.nationalgeographic.org/resource/renewable-energy-explained/" target="__blank">
