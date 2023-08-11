@@ -5,5 +5,7 @@ import starRating from "./images/star_rating.png"
 import keyPointsFromWebpageAndYt from "./images/key_points_from_webpage_and_yt.png"
 import jumpToTimeInYt from "./images/jump_to_time_in_yt.png"
 import splitArticlesVideosIntoBlocks from "./images/split_articles_videos_to_blocks.png"
+import upRightArrow from "./images/up-right-arrow.png"
+import howToUseGist from "./images/how_to_use_gist.png"
 
-export { logo10050, chromeLogo, extractKeyPoints, starRating, keyPointsFromWebpageAndYt, jumpToTimeInYt, splitArticlesVideosIntoBlocks };
+export { logo10050, chromeLogo, extractKeyPoints, starRating, keyPointsFromWebpageAndYt, jumpToTimeInYt, splitArticlesVideosIntoBlocks, upRightArrow, howToUseGist };
