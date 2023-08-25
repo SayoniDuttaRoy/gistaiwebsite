@@ -22,7 +22,7 @@ const Features = () => {
                 <div className="w-full flex flex-col gap-6 lgl:justify-between items-begin">
                     <p className="font-titleFont text-textRed text-2xl font-bold">Read More of what you like</p>
                     <p className="text-xl">
-                        Our unique "Read More" feature allows you to deep-dive into the source of the summaries that interest you the most.
+                        Our unique 'Read More' feature allows you to deep-dive into the source of the summaries that interest you the most.
                         <br />No more fluff or distractions!
                     </p>
                 </div>
