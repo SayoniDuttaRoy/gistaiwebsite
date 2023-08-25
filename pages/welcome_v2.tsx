@@ -25,7 +25,7 @@ export default function Welcome_V2() {
                         Welcome to Gist AI
                     </h1>
                     <p className="text-2xl text-textGrey text-center font-medium max-w-[650px] mt-5">One ChatGPT powered free extension to summarize everything!
-                        <br/>Webpages, Youtube videos and PDFs.
+                        <br/>Webpage. Youtube video. Online PDF. Local PDF
                         <br/><br/>Even better, deep dive into the summary source for clarity or jump right to that moment in the Youtube video.
                     </p>
                     <a href="https://education.nationalgeographic.org/resource/renewable-energy-explained/" target="__blank">
