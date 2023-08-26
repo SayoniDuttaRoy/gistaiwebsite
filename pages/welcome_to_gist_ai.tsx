@@ -4,7 +4,7 @@ import { howToUseGist, upRightArrow } from "@/public/assets";
 import Head from "next/head";
 import Image from "next/image";
 
-export default function Welcome_V2() {
+export default function WelcomeToGistAI() {
     return (
       <>
         <Head>

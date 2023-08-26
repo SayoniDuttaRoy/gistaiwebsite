@@ -6,9 +6,11 @@ import featureReadMore from "./images/feature_read_more.png"
 import featureJumpToYtTime from "./images/feature_jump_to_yt_time.png";
 import featurePdf from "./images/feature_pdf.png";
 import featureBreakIntoBlocks from "./images/feature_break_into_blocks.png";
+import uploadFileImage from "./images/upload_file_illustration.png";
+import rightArrowRed from "./images/right-arrow.png";
 import upRightArrow from "./images/up-right-arrow.png"
 import howToUseGist from "./images/how_to_use_gist.png"
 
 export { logo10050, chromeLogo, starRating, 
     featureSaveTime, featureReadMore, featureJumpToYtTime, featurePdf, 
-    featureBreakIntoBlocks, upRightArrow, howToUseGist };
+    featureBreakIntoBlocks, upRightArrow, rightArrowRed, howToUseGist, uploadFileImage };
