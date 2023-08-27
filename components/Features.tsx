@@ -11,10 +11,10 @@ const Features = () => {
             <div className="w-full flex items-center justify-center gap-10 flex-wrap mdl:flex-nowrap">
                 <div className="w-full flex flex-col gap-6 lgl:justify-between items-begin">
                     <p className="font-titleFont text-textRed text-2xl font-bold">Save time</p>
-                    <p className="text-xl">Instantly extracts key points from long articles, Youtube videos or PDFs in 1 click.</p>
+                    <p className="text-xl">Instantly extracts key points from long articles, YouTube videos or PDFs in 1 click.</p>
                 </div>
                 <div className="max-w-imageContainer">
-                    <Image className="object-contain rounded-lg" src={featureSaveTime} alt="extract key points from webpage and youtube videos" />
+                    <Image className="object-contain rounded-lg" src={featureSaveTime} alt="extract key points from website and youtube videos" />
                 </div>
             </div>
             {/* Feature 2 */}
@@ -35,7 +35,7 @@ const Features = () => {
                 <div className="w-full flex flex-col gap-6 lgl:justify-between items-begin">
                     <p className="font-titleFont text-textRed text-2xl font-bold">Jump to core segments of a YouTube video</p>
                     <p className="text-xl">
-                        Quickly skim through the summary and only watch the parts of the Youtube video which are relevant to you.
+                        Quickly skim through the summary and only watch the parts of the YouTube video which are relevant to you.
                     </p>
                 </div>
                 <div className="max-w-imageContainer">

@@ -19,7 +19,7 @@ export default function UploadPdf() {
                     <div className="flex flex-row justify-between max-w-imageContainer">
                         <div className="m-[20px]">
                             <p className="text-textRed text-[24px] mb-[10px]">Welcome to Gist AI</p>
-                            <p className="text-textBlack text-[20px]">To summarize your local PDF, click on the Upload PDF button to the right.</p>
+                            <p className="text-textBlack text-[20px]">To summarize your local PDF, upload it using the Upload PDF button on the right.</p>
                         </div>
                         <div className="w-[100px] h-[36px] animate-bounce">
                             <Image className="object-contain rounded-lg" src={rightArrowRed} alt="forward to timestamp in youtube video" />
@@ -28,6 +28,7 @@ export default function UploadPdf() {
                     <div className="max-w-imageContainer">
                         <Image className="object-contain rounded-lg" src={uploadFileImage} alt="forward to timestamp in youtube video" />
                     </div>
+                    <p className="text-textGrey text-[16px] m-[15px]">No worries! Gist AI does not collect or store your uploaded PDF.</p>
                 </div>
             </section>
           </main>

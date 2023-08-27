@@ -25,8 +25,8 @@ export default function WelcomeToGistAI() {
                         Welcome to Gist AI
                     </h1>
                     <p className="text-2xl text-textGrey text-center font-medium max-w-[650px] mt-5">One ChatGPT powered free extension to summarize everything!
-                        <br/>Webpage. Youtube video. Online PDF. Local PDF
-                        <br/><br/>Even better, deep dive into the summary source for clarity or jump right to that moment in the Youtube video.
+                        <br/>Website. YouTube video. Online PDF. Local PDF
+                        <br/><br/>Even better, deep dive into the summary source for clarity or jump right to that moment in the YouTube video.
                     </p>
                     <a href="https://education.nationalgeographic.org/resource/renewable-energy-explained/" target="__blank">
                         <button className="inline-block w-auto text-2xl flex items-center font-titleFont text-textWhite bg-bgRed rounded-md hover:bg-bgRedHover px-4 py-3 mt-4">
@@ -39,7 +39,7 @@ export default function WelcomeToGistAI() {
                         <SectionTitle title="How to Use Gist AI" />
                         <ol className="list-decimal list-inside text-xl">
                             <li className="p-1">Pin the Gist AI extension to your toolbar</li>
-                            <li className="p-1">When you visit a webpage, click the Gist AI icon to summarize it</li>
+                            <li className="p-1">When you visit a website, click the Gist AI icon to summarize it</li>
                             <li className="p-1">To summarize a PDF file stored on your computer, upload it in the PDF tab.</li>
                         </ol>
                         <Image src={howToUseGist} alt="How to use gist" className="rounded-lg"></Image>
