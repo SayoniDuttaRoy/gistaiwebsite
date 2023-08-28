@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Gist AI</title>
-      <meta name="title" content="Gist AI - A ChatGPT powered free Chrome Extension for summarizing webpages and Youtube Videos" />
-      <meta name="description" content="Landing page for Gist AI - A ChatGPT powered free Chrome Extension for summarizing webpages and Youtube Videos. Works on all sites." />
+      <title>Gist AI - Free Web,YouTube,PDF Summarizer</title>
+      <meta name="title" content="One extension to summarize everything - websites, YouTube videos and PDFs. Powered by ChatGPT." />
+      <meta name="description" content="Gist AI is a free Chrome extension to summarize everything - websites, YouTube videos and PDFs. Powered by ChatGPT." />
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <link rel="icon" href='/favicon.png' />
     </Head>
