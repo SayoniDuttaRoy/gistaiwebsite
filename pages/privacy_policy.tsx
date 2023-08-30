@@ -24,12 +24,6 @@ export default function PrivacyPolicy() {
                 <p>
                     The Extension does not collect any personal identifiable information about you (such as your name, email address, etc.). Further, it does not collect or report back to us (or anyone else) any data regarding your computer keystrokes or other data unrelated to the services the Extension provides.
                     <br/>We do not call Google APIs to obtain personal information. Moreover, when installing a Gist AI Extension on a personal Google account we are provided with no information regarding who has completed the installation.
-                    <b/>This privacy policy contains no section on sharing of personal information because we have none to share.
-                </p>
-                <p className="text-xl font-semibold">Data</p>
-                <p>
-                    Gist AI logs the URLs the summaries are generated from for identifying bugs and improving the extension performance. It also logs an alphanumeric ID unique to each OpenAI account. This ID is anonymous and it is not possible for Gist AI to personally identify the user with this ID.
-                    <br/>All other data are stored offline in the local storage of your browser.
                 </p>
                 <p className="text-xl font-semibold">Cookies</p>
                 <p>We do not send or collect any cookies.</p>
