@@ -7,7 +7,9 @@ const PrivacyPolicy = () => {
             <SectionTitle title="Privacy Policy"/>
             <div>
                 <p className="text-xl text-textGrey">
-                Gist AI does not collect any user data. The only information shared with the AI model (chat.openai.com) is the article text in order to generate the summary.
+                Gist AI does not collect any user data. 
+                The only information shared with the AI model (chat.openai.com) is the article content in order to generate the summary. 
+                More details can be found <a href="https://www.gistai.tech/privacy_policy" target="__blank" className="underline text-blue-500">here</a>.
                 </p>
             </div>
         </section>
