@@ -23,7 +23,7 @@ const Banner = () => {
                 </a>
             </div>
             <div className="mt-5 text-xl">
-                <a href="#testimonials" className="underline text-blue-500">What customers are saying about us?</a>
+                <a href="#testimonials" className="underline text-textBlue">What customers are saying about us?</a>
             </div>
         </section>
     );

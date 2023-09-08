@@ -34,6 +34,7 @@ module.exports = {
         textGrey: "#232115A6",
         textWhite: "#FFFFFF",
         textRed: "#DE483A",
+        textBlue: "#0053BD",
         bgRed: "#DE483A",
         bgRedHover: "#FF9F9F",
         bgLightPink: "#FFE4E4"
