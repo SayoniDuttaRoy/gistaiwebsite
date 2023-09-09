@@ -7,8 +7,8 @@ const ContactUs = () => {
             <SectionTitle title="Contact Us"/>
             <div>
                 <p className="text-xl text-textGrey">
-                    We would love to hear from you! Provide feedback, ask questions, request features or report bugs <a
-                className="underline text-blue-500" href="https://forms.gle/QCvWzQDoSn31AusA8" target="__blank">here</a>.</p>
+                    We would love to hear from you! Provide feedback, ask questions, request features or report bugs by filling this 2 minute <a
+                className="underline text-textBlue" href="https://forms.gle/QCvWzQDoSn31AusA8" target="__blank">form</a>.</p>
             </div>
         </section>
     );

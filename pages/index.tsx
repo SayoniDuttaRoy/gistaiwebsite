@@ -2,6 +2,7 @@ import Banner from '@/components/Banner'
 import ContactUs from '@/components/ContactUs'
 import DemoVideo from '@/components/DemoVideo'
 import Features from '@/components/Features'
+import Footer from '@/components/Footer'
 import FooterCta from '@/components/FooterCta'
 import Navbar from '@/components/NavBar'
 import PrivacyPolicy from '@/components/PrivacyPolicy'
@@ -16,7 +17,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Gist AI - Free Web,YouTube,PDF Summarizer</title>
+      <title>Gist AI - Free Web,YouTube,PDF Summarizer. Powered by ChatGPT.</title>
       <meta name="title" content="One extension to summarize everything - websites, YouTube videos and PDFs. Powered by ChatGPT." />
       <meta name="description" content="Gist AI is a free Chrome extension to summarize everything - websites, YouTube videos and PDFs. Powered by ChatGPT." />
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -40,6 +41,8 @@ export default function Home() {
           <FooterCta />
           <ContactUs />
           <PrivacyPolicy />
+          <div className="border-t border-gray-200 mt-[50px] mb-[50px]"></div>
+          <Footer />
         </div>
       </div>
     </main>

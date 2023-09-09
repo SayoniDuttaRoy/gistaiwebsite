@@ -18,7 +18,7 @@ const Testimonials = () => {
                                     It is a great tool for students and professionals alike and the software understands exactly what points and figures in the article would be useful for the reader very well. There have been many times when I needed to comb through huge articles to find the most important points for a business report or a presentation and GistAI does just that in a matter of seconds.
                                 </p>
                             <div>
-                                <h6 className="text-lg font-semibold leading-none mb-3">Sambuddha Guha</h6>
+                                <p className="text-lg font-semibold leading-none mb-3">Sambuddha Guha</p>
                                 <span className="text-xm text-gray-500">Business Analyst</span>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Testimonials = () => {
                             As someone who rarely has any patience to read on pages and pages of any article, this extension is  a life saver for me. This extension streamlined the contents of the articles with a great deal of precision for me. As a student I do have to read quite a few tech related articles and this extension just made my day to day work way more easier.
                         </p>
                     <div>
-                        <h6 className="text-lg font-semibold leading-none mb-3">Sunny Basu</h6>
+                        <p className="text-lg font-semibold leading-none mb-3">Sunny Basu</p>
                         <span className="text-xm text-gray-500">Research Student</span>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const Testimonials = () => {
                       With all the content that we consume on a daily basis this extension is a life- and timesaver. Would highly recommend for anyone to give this a try.
                     </p>
                 <div>
-                <h6 className="text-lg font-semibold leading-none mb-3">Joris Langewouters</h6>
+                <p className="text-lg font-semibold leading-none mb-3">Joris Langewouters</p>
                 <span className="text-xm text-gray-500">Consultant</span>
               </div>
             </div>
@@ -52,7 +52,7 @@ const Testimonials = () => {
     </div>
     </div>
     <div className="text-center">
-        <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website" target="__blank" className="underline text-blue-500">
+        <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website" target="__blank" className="underline text-textBlue">
             View More
         </a>
     </div>
@@ -61,3 +61,4 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
