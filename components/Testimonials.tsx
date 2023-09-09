@@ -52,7 +52,7 @@ const Testimonials = () => {
     </div>
     </div>
     <div className="text-center">
-        <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc" target="__blank" className="underline text-blue-500">
+        <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website" target="__blank" className="underline text-blue-500">
             View More
         </a>
     </div>

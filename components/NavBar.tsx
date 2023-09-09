@@ -25,7 +25,7 @@ const Navbar = () => {
                         <li>Contact Us</li>
                     </Link>
                 </ul>
-                <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc" target="__blank">
+                <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website" target="__blank">
                     <button className="px-4 py-2 rounded-md text-textWhite bg-bgRed hover:bg-bgRedHover">
                         Start Now
                     </button>
