@@ -21,7 +21,13 @@ const DemoVideo = () => {
                     <source src="/assets/videos/DemoVideowithYT.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video> */}
-                <Image src={howToUseGist} alt="How to use gist" className="rounded-lg"></Image>
+                <div className=" relative w-[100%]  pt-[56.25%] overflow-hidden">
+                    <iframe className="w-[100%] h-[100%] top-0  left-0 absolute"
+                        src="https://www.youtube.com/embed/4quMO-DUpFQ?loop=1&playlist=4quMO-DUpFQ&rel=0"  
+                        title="How to use Gist AI for summarizing websites, YouTube videos and PDFs" 
+                        allow="web-share">
+                    </iframe>
+                </div>
             </div>
         </section>
     );
