@@ -16,18 +16,17 @@ const DemoVideo = () => {
                 </ol>
             </div>
             <div>
-                {/* TODO(sdr): Add demo video for v2 and remove image */}
-                {/* <video controls width="100%" loop className="rounded-lg">
-                    <source src="/assets/videos/DemoVideowithYT.mp4" type="video/mp4" />
+                <video controls width="100%" loop className="rounded-lg">
+                    <source src="/assets/videos/DemoV2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                </video> */}
-                <div className=" relative w-[100%]  pt-[56.25%] overflow-hidden">
+                </video>
+                {/* <div className=" relative w-[100%]  pt-[56.25%] overflow-hidden">
                     <iframe className="w-[100%] h-[100%] top-0  left-0 absolute"
                         src="https://www.youtube.com/embed/4quMO-DUpFQ?loop=1&playlist=4quMO-DUpFQ&rel=0"  
                         title="How to use Gist AI for summarizing websites, YouTube videos and PDFs" 
                         allow="web-share">
                     </iframe>
-                </div>
+                </div> */}
             </div>
         </section>
     );
