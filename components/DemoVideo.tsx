@@ -9,7 +9,7 @@ const DemoVideo = () => {
             <SectionTitle title="How to Use" />
             <div>
                 <ol className="list-decimal list-inside text-xl">
-                    <li className="p-1">Install the <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc" target="__blank" className="underline text-textBlue">Gist AI</a> extension from the Chrome Web Store</li>
+                    <li className="p-1">Install the <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website" target="__blank" className="underline text-textBlue">Gist AI</a> extension from the Chrome Web Store</li>
                     <li className="p-1">Pin the Gist AI extension to the toolbar</li>
                     <li className="p-1">Open any website, Youtube video or PDF and click on the extension icon to summarize it</li>
                     <li className="p-1">To summarize a PDF file stored on your computer, upload it in the PDF tab</li>
@@ -34,3 +34,4 @@ const DemoVideo = () => {
 }
 
 export default DemoVideo;
+
