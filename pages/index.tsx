@@ -1,6 +1,7 @@
 import Banner from '@/components/Banner'
 import ContactUs from '@/components/ContactUs'
 import DemoVideo from '@/components/DemoVideo'
+import Faq from '@/components/Faq'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
 import FooterCta from '@/components/FooterCta'
@@ -35,6 +36,8 @@ export default function Home() {
           <DemoVideo />
           <div className="border-t border-gray-200 m-4"></div>
           <Features />
+          <div className="border-t border-gray-200 m-4"></div>
+          <Faq />
           <div className="border-t border-gray-200 m-4"></div>
           <Testimonials />
           <div className="border-t border-gray-200 m-4"></div>

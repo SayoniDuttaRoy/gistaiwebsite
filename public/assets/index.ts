@@ -10,7 +10,10 @@ import uploadFileImage from "./images/upload_file_illustration.png";
 import rightArrowRed from "./images/right-arrow.png";
 import upRightArrow from "./images/up-right-arrow.png"
 import howToUseGist from "./images/how_to_use_gist.png"
+import rightTriangleRed from "./images/red_right_triangle.png"
+import downTriangleRed from "./images/red_down_triangle.png"
 
 export { logo10050, chromeLogo, starRating, 
     featureSaveTime, featureReadMore, featureJumpToYtTime, featurePdf, 
-    featureBreakIntoBlocks, upRightArrow, rightArrowRed, howToUseGist, uploadFileImage };
+    featureBreakIntoBlocks, upRightArrow, rightArrowRed, howToUseGist, uploadFileImage,
+    rightTriangleRed, downTriangleRed };

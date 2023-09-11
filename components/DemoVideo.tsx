@@ -1,7 +1,5 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
-import { howToUseGist } from "@/public/assets";
-import Image from "next/image";
 
 const DemoVideo = () => {
     return (
