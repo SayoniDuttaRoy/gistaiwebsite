@@ -1,18 +1,21 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 
-// This page will track user-id using utm tags.
-const RedirectToForm = () => {
-    const router = useRouter();
-
-    useEffect(() => {
-        // Redirect to the Google Form
-        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfCtelRW_SnUNrIE8SvSQRPmBF9j34J2WS5ci28Qewkr_TvvA/viewform";
-    }, []);
-
+const UninstallPage = () => {
     return (
-        <div></div>
+        <div style={{ width: '100%', height: '100vh', overflow: 'hidden' }}>
+            <iframe
+                src="https://forms.gle/sGoH7yhtrHGRWkZt8"
+                width="100%"
+                height="100%"
+                frameBorder={0}
+                scrolling="no"
+            >
+                Loading…
+            </iframe>
+        </div>
+
     );
 };
 
-export default RedirectToForm;
+export default UninstallPage;
