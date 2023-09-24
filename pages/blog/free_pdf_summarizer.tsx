@@ -24,8 +24,8 @@ export default function PDFSummarizerFree() {
         </Head>
         
         <main className="font-bodyFont overflow-x-hidden overflow-y-scroll px-5">
-            <div className="max-w-contentContainer mx-auto flex flex-col gap-4 items-center mt-10">
-                <div className="max-w-contentContainer mx-auto flex gap-4 items-center mt-10">
+            <div className="max-w-contentContainer mx-auto flex flex-col gap-4 mt-10">
+                <div className="mx-auto flex gap-4 items-center mt-10">
                     <h1 className="text-4xl font-titleFont font-semibold flex gap-4 mt-10">
                         How to summarize any PDF for free with ChatGPT?
                     </h1>
