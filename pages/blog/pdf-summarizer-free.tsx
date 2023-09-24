@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { chromeLogo } from "@/public/assets";
+import { chromeLogo, featurePdf } from "@/public/assets";
 
 export default function PDFSummarizerFree() {
     return (
@@ -43,9 +43,13 @@ export default function PDFSummarizerFree() {
                         After reading this content, it splits the content into small parts using advanced AI technologies. 
                         It then uses ChatGPT to summarize the PDF and identify key points.
                     </p>
+                    <video controls width="70%" loop className="rounded-lg mt-5 mb-10">
+                        <source src="/assets/videos/Demo_PDF_compressed.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
-                <div>
-                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-4 mb-2">
+                <div className="mt-10">
+                    <h2 className="text-2xl font-titleFont font-semibold mb-2">
                         Why should you summarize a long PDF?
                     </h2>
                     <ul className=" text-textGrey text-xm">
@@ -79,7 +83,10 @@ export default function PDFSummarizerFree() {
                     </ul>
                 </div>
                 <div>
-                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-4 mb-2">How to summarize a PDF?</h2>
+                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-10 mb-2">How to summarize a PDF?</h2>
+                    <div className="max-w-imageContainer mt-5 mb-10">
+                        <Image className="object-contain rounded-lg" src={featurePdf} alt="forward to timestamp in youtube video" />
+                    </div>
                     <ol className=" text-textGrey text-xm list-decimal list-inside">
                         <li className="p-1">Install the <a className="underline text-textBlue"
                                 href="https://www.gistai.tech/?utm_source=gistai&utm_medium=blog&utm_campaign=launch" target="__blank">
@@ -97,7 +104,7 @@ export default function PDFSummarizerFree() {
                     </ol>
                 </div>
                 <div>
-                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-4 mb-2">
+                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-10 mb-2">
                         Other tools for PDF Summarization
                     </h2>
                     <p className=" text-textGrey text-xm">While there are other PDF summarization tools powered by ChatGPT, 
