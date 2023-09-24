@@ -16,9 +16,9 @@ export default function PDFSummarizerFree() {
             ai that can summarize pdf, free pdf summarizer ai, pdf summarizer online free, 
             pdf summarizer ai chrome extension, ai pdf summary, ai to summarize article pdf, 
             pdf summarizer chrome extension" />
-            <meta name="description" content="Gist AI is an free online tool for PDF summarization, powered by ChatGPT.
-            Summarize unlimited PDFs of any length.
-            Install for free and start summarizing.">
+            <meta name="description" content="Gist AI is an free online AI PDF summarizer, powered by ChatGPT.
+            Summarize unlimited PDF articles of any length.
+            Install the Chrome extension and start summarizing.">
             </meta>
             <link rel="icon" href='/favicon.png' />
         </Head>
