@@ -6,8 +6,21 @@ export default function PDFSummarizerFree() {
     return (
       <>
         <Head>
-          <title>Free PDF Summarizer with ChatGPT | Best PDF Summarizer Chrome Extension</title>
-          <link rel="icon" href='/favicon.png' />
+            <meta name="author" content="Sayoni Dutta Roy"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+            <title>Free PDF Summarizer with ChatGPT | Best AI Summarizer Chrome Extension</title>
+            <meta name="keywords" content="Gist AI, pdf summarizer free,ai summarize pdf,
+            pdf summarizer chatgpt, ai pdf summarizer, free pdf summarizer, 
+            chatgpt summarize pdf, chatgpt pdf summarizer,pdf summarizer ai, 
+            summarize pdf ai, ai to summarize pdf,free online pdf summarizer, summarize pdf article,
+            ai that can summarize pdf, free pdf summarizer ai, pdf summarizer online free, 
+            pdf summarizer ai chrome extension, ai pdf summary, ai to summarize article pdf, 
+            pdf summarizer chrome extension" />
+            <meta name="description" content="Gist AI is an free online tool for PDF summarization, powered by ChatGPT.
+            Summarize unlimited PDFs of any length.
+            Install for free and start summarizing.">
+            </meta>
+            <link rel="icon" href='/favicon.png' />
         </Head>
         
         <main className="font-bodyFont overflow-x-hidden overflow-y-scroll px-5">
@@ -56,7 +69,7 @@ export default function PDFSummarizerFree() {
                         <li>
                             <h3 className="font-semibold text-textBlack text-lg">Saves time</h3>
                             <p className="mb-3">Reading a 100-page PDF could easily take upwards of 50 minutes or more. 
-                            However, with Gist AI, you can get a condensed summary that can be read in just a few minutes.
+                            However, with Gist AI, you can get a condensed summary of any PDF article that can be read in just a few minutes.
                             </p>
                         </li>
                         <li>
