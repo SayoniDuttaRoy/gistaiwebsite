@@ -35,14 +35,14 @@ export default function PDFSummarizerFree() {
                     <p className=" text-textGrey text-xm">
                         PDF summarization can help you save a lot of time and boost productivity. 
                         Gist AI is a free PDF Summarizer powered by ChatGPT. 
-                        With Gist AI, you can summarize unlimited PDFs of any length. 
+                        With Gist AI, you can summarize unlimited PDF articles of any length. 
                     </p>
                     <div className="mt-6 mb-10">
                         <a href="https://chrome.google.com/webstore/detail/gist-aiwebyoutubepdf-summ/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website_pdf" target="__blank">
                         <button className="inline-block w-auto text-xm flex items-center font-titleFont text-textWhite
                          bg-bgRed rounded-md hover:bg-bgRedHover px-2 py-1 mt-2 gap-4">
                             <Image src={chromeLogo} alt="chrome icon" className="h-8 w-8"/>
-                            <span>Try PDF Summarization</span>
+                            <span>Try PDF Summarizer</span>
                         </button>
                         </a>
                     </div>
