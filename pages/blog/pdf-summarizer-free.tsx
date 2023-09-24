@@ -11,21 +11,21 @@ export default function PDFSummarizerFree() {
         </Head>
         
         <main className="font-bodyFont overflow-x-hidden overflow-y-scroll px-5">
-            <div className="w-full">
+            <div className="max-w-contentContainer mx-auto flex flex-col gap-4 items-center mt-10">
                 <div className="max-w-contentContainer mx-auto flex gap-4 items-center mt-10">
                     <h1 className="text-4xl font-titleFont font-semibold flex gap-4 mt-10">
-                        How to summarize long PDFs for free with ChatGPT?
+                        How to summarize a PDF for free with ChatGPT?
                     </h1>
                 </div>
                 <div>
                     <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-10 mb-2">TL;DR</h2>
                     <p className=" text-textGrey text-xm">
                         PDF summarization can help you save a lot of time and boost productivity. 
-                        Gist AI is a free PDF Summarizer powered by ChatGPT that can summarize PDFs of any length. 
-                        Install the free Gist AI Chrome Extension to get started.
+                        Gist AI is a free PDF Summarizer powered by ChatGPT. 
+                        With Gist AI, you can summarize unlimited PDFs of any length. 
                     </p>
                     <div className="mt-6 mb-10">
-                        <a href="https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website" target="__blank">
+                        <a href="https://chrome.google.com/webstore/detail/gist-aiwebyoutubepdf-summ/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website_pdf" target="__blank">
                         <button className="inline-block w-auto text-xm flex items-center font-titleFont text-textWhite
                          bg-bgRed rounded-md hover:bg-bgRedHover px-2 py-1 mt-2 gap-4">
                             <Image src={chromeLogo} alt="chrome icon" className="h-8 w-8"/>
@@ -35,7 +35,7 @@ export default function PDFSummarizerFree() {
                     </div>
                 </div>
                 <div>
-                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-4 mb-2">
+                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mb-2">
                         What is an AI PDF Summarizer?
                     </h2>
                     <p className=" text-textGrey text-xm">
@@ -48,7 +48,7 @@ export default function PDFSummarizerFree() {
                         Your browser does not support the video tag.
                     </video>
                 </div>
-                <div className="mt-10">
+                <div>
                     <h2 className="text-2xl font-titleFont font-semibold mb-2">
                         Why should you summarize a long PDF?
                     </h2>
@@ -83,13 +83,13 @@ export default function PDFSummarizerFree() {
                     </ul>
                 </div>
                 <div>
-                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-10 mb-2">How to summarize a PDF?</h2>
-                    <div className="max-w-imageContainer mt-5 mb-10">
+                    <h2 className="text-2xl font-titleFont font-semibold mb-2">How to summarize a PDF?</h2>
+                    <div className="mt-5 mb-10 max-w-[70%] ">
                         <Image className="object-contain rounded-lg" src={featurePdf} alt="forward to timestamp in youtube video" />
                     </div>
                     <ol className=" text-textGrey text-xm list-decimal list-inside">
                         <li className="p-1">Install the <a className="underline text-textBlue"
-                                href="https://www.gistai.tech/?utm_source=gistai&utm_medium=blog&utm_campaign=launch" target="__blank">
+                                href="https://chrome.google.com/webstore/detail/gist-aiwebyoutubepdf-summ/elmpkhkdonhdbkeaigkblbgckcihahoc?utm_source=gist_ai_website_pdf" target="__blank">
                                 Gist AI PDF Summarizer Chrome extension</a> from the Chrome Web Store
                         </li>
                         <li className="p-1"><a className="underline text-textBlue" target="__blank"
@@ -103,7 +103,7 @@ export default function PDFSummarizerFree() {
                         </p>
                     </ol>
                 </div>
-                <div>
+                <div className="mb-10">
                     <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-10 mb-2">
                         Other tools for PDF Summarization
                     </h2>
