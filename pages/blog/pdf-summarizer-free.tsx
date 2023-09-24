@@ -62,8 +62,8 @@ export default function PDFSummarizerFree() {
                     </video>
                 </div>
                 <div>
-                    <h2 className="text-2xl font-titleFont font-semibold mb-2">
-                        Why should you summarize a long PDF?
+                    <h2 className="text-2xl font-titleFont font-semibold mb-4">
+                        Why should you summarize a PDF with Gist AI?
                     </h2>
                     <ul className=" text-textGrey text-xm">
                         <li>
@@ -73,14 +73,14 @@ export default function PDFSummarizerFree() {
                             </p>
                         </li>
                         <li>
-                            <h3 className="font-semibold text-textBlack text-lg">Filter out fluff</h3>
+                            <h3 className="font-semibold text-textBlack text-lg">Focus on important parts</h3>
                             <p className="mb-3">You no longer need to read the entire PDF to get to the important parts.
                             With Gist AI, you only read the parts of the PDF which are relevant and important to you.
                             </p>
                         </li>
                         <li>
                             <h3 className="font-semibold text-textBlack text-lg">
-                                Unlimited PDF summaries. No restrictions on the length of the PDF
+                                Unlimited Free PDF summaries. No restrictions on the length of the PDF
                             </h3>
                             <p className="mb-3">With Gist AI PDF Summarizer, you can summarize unlimited PDFs. 
                             You can summarize lengthy PDFs found online as well as those saved on your device. 
@@ -90,7 +90,7 @@ export default function PDFSummarizerFree() {
                         <li>
                             <h3 className="font-semibold text-textBlack text-lg">Easy to use</h3>
                             <p className="mb-3">Gist AI is designed with a simple, intuitive interface. 
-                                Just upload your PDF, and Gist AI will instantly summarize it for free. 
+                                Just upload your PDF, and Gist AI will instantly generate the PDF summary. 
                             </p>
                         </li>
                     </ul>
@@ -112,13 +112,13 @@ export default function PDFSummarizerFree() {
                         <p className="p-1">Done! Gist AI will automatically generate the summary for the PDF.</p>
                         <h3 className="font-semibold text-textBlack text-lg mt-2">Bonus Tip</h3>
                         <p>
-                            You can also summarize online PDFs with Gist AI. 
-                            Just click on the Gist AI extension icon after opening the PDF file.
+                            You can also summarize any online PDF with Gist AI. 
+                            Just click on the Gist AI extension icon after opening the PDF file to summarize it.
                         </p>
                     </ol>
                 </div>
                 <div className="mb-10">
-                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-10 mb-2">
+                    <h2 className="text-2xl font-titleFont font-semibold flex gap-4 mt-6 mb-2">
                         Other tools for PDF Summarization
                     </h2>
                     <p className=" text-textGrey text-xm">While there are other PDF summarization tools powered by ChatGPT, 
