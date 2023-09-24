@@ -97,6 +97,7 @@ export default function PDFSummarizerFree() {
                 </div>
                 <div>
                     <h2 className="text-2xl font-titleFont font-semibold mb-2">How to summarize a PDF?</h2>
+                    <p className=" text-textGrey text-xm">Summarize any PDF in just 2 steps with Gist AI.</p>
                     <div className="mt-5 mb-10 max-w-[70%] ">
                         <Image className="object-contain rounded-lg" src={featurePdf} alt="forward to timestamp in youtube video" />
                     </div>
@@ -108,7 +109,7 @@ export default function PDFSummarizerFree() {
                         <li className="p-1"><a className="underline text-textBlue" target="__blank"
                             href="https://www.gistai.tech/upload_pdf">Upload</a> your PDF file
                         </li>
-                        <p className="p-1">That's it! Gist AI will automatically generate the summary for the PDF.</p>
+                        <p className="p-1">Done! Gist AI will automatically generate the summary for the PDF.</p>
                         <h3 className="font-semibold text-textBlack text-lg mt-2">Bonus Tip</h3>
                         <p>
                             You can also summarize online PDFs with Gist AI. 
@@ -123,7 +124,7 @@ export default function PDFSummarizerFree() {
                     <p className=" text-textGrey text-xm">While there are other PDF summarization tools powered by ChatGPT, 
                     like ZenoChat and ChatPDF, 
                     none are Free and offer the ease of use and versatility that Gist AI provides. 
-                    With Gist AI, you don't have to convert your PDFs to text or break them into sections.
+                    With Gist AI, you do not have to convert your PDFs to text or break them into sections.
                     Gist AI Chrome extension does all the heavy lifting for you.</p>
                 </div>
             </div>
