@@ -59,7 +59,7 @@ export default function YoutubeSummarizerFree() {
                             It then uses ChatGPT to summarize the video and identify key points.
                         </p>
                         <video controls width="70%" loop className="rounded-lg mt-5 mb-10">
-                            <source src="/assets/videos/Demo_PDF_compressed.mp4" type="video/mp4" />
+                            <source src="/assets/videos/Demo_Youtube_compressed.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
