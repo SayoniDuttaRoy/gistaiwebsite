@@ -26,11 +26,11 @@ const Banner = () => {
                 <a href="#testimonials" className="underline text-textBlue">What customers are saying about us?</a>
             </div>
             <div className="mt-[10px]">
-                <a href="https://www.producthunt.com/posts/gist-ai?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gist&#0045;ai" 
-                target="_blank">
-                    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=413513&theme=light" 
-                    alt="Gist&#0032;AI - Free&#0032;Website&#0044;&#0032;YouTube&#0044;&#0032;PDF&#0032;Summarizer&#0046;&#0032;Powered&#0032;by&#0032;ChatGPT | Product Hunt" 
-                    className="w-[250px] h-[54px]"/>
+                <a href="https://www.producthunt.com/posts/gist-ai?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-gist&#0045;ai"
+                   target="_blank">
+                    <img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=413513&theme=light&period=daily"
+                         alt="Gist&#0032;AI - Free&#0032;website&#0044;&#0032;YouTube&#0044;&#0032;PDF&#0032;summarizer&#0044;&#0032;powered&#0032;by&#0032;ChatGPT | Product Hunt"
+                         className="w-[250px] h-[54px]" />
                 </a>
             </div>
         </section>
