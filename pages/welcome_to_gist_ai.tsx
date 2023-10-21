@@ -28,7 +28,7 @@ export default function WelcomeToGistAI() {
                         <br/>Website. YouTube video. Online PDF. Local PDF
                         <br/><br/>Even better, deep dive into the summary source for clarity or jump right to that moment in the YouTube video.
                     </p>
-                    <a href="https://education.nationalgeographic.org/resource/renewable-energy-explained/" target="__blank">
+                    <a href="https://www.gistai.tech/blog/free_pdf_summarizer" target="__blank">
                         <button className="inline-block w-auto text-2xl flex items-center font-titleFont text-textWhite bg-bgRed rounded-md hover:bg-bgRedHover px-4 py-3 mt-4">
                             <span>Try it Now</span>
                             <Image src={upRightArrow} alt="up right arrow icon" className="h-4 w-4 filter brightness-0 invert ml-3"></Image>

@@ -22,7 +22,7 @@ export default function Welcome() {
                 <p className="text-2xl text-textGrey text-center font-medium max-w-[650px] mt-5">Summarize any webpage or Youtube video in 1 click using ChatGPT AI.
                 <br/>Even better, read more details about the summary or skip right to that moment in the Youtube video.
                 </p>
-                <a href="https://education.nationalgeographic.org/resource/renewable-energy-explained/" target="__blank">
+                <a href="https://www.gistai.tech/blog/free_pdf_summarizer" target="__blank">
                     <button className="inline-block w-auto text-2xl flex items-center font-titleFont text-textWhite bg-bgRed rounded-md hover:bg-bgRedHover px-4 py-3 mt-4">
                         <span>Try it Now</span>
                         <Image src={upRightArrow} alt="up right arrow icon" className="h-4 w-4 filter brightness-0 invert ml-3"></Image>
