@@ -1,5 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
+import { videoIcon } from "@/public/assets";
+import Image from "next/image";
 
 const DemoVideo = () => {
     return (
@@ -13,18 +15,26 @@ const DemoVideo = () => {
                     <li className="p-1">To summarize a PDF file stored on your computer, upload it in the PDF tab</li>
                 </ol>
             </div>
-            <div>
+            <div className="flex justify-center">
                 {/* <video controls width="100%" loop className="rounded-lg">
                     <source src="/assets/videos/DemoV2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video> */}
-                <div className=" relative w-[100%]  pt-[56.25%] overflow-hidden">
+                {/* <div className=" relative w-[100%]  pt-[56.25%] overflow-hidden">
                     <iframe className="w-[100%] h-[100%] top-0  left-0 absolute"
                         src="https://www.youtube.com/embed/4quMO-DUpFQ?loop=1&playlist=4quMO-DUpFQ&rel=0"  
                         title="How to use Gist AI for summarizing websites, YouTube videos and PDFs" 
                         allow="web-share">
                     </iframe>
-                </div>
+                </div> */}
+                <a href="https://www.youtube.com/watch?v=4quMO-DUpFQ" target="__blank">
+                    <button className="w-auto text-2xl flex items-center font-titleFont 
+                        text-textRed border-2 border-bgLightPink rounded-lg hover:bg-bgLightPink
+                        p-3 mt-4 gap-4 shadow-lg">
+                        <Image src={videoIcon} alt="video icon" className="h-12 w-12 text-textWhite"/>
+                        <span>Watch Demo Video</span>
+                    </button>
+                </a>
             </div>
         </section>
     );
