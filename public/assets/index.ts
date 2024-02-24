@@ -1,5 +1,6 @@
 import logo10050 from "./images/logo_100_50.png"
 import chromeLogo from "./images/chrome_icon.png"
+import videoIcon from "./images/video_icon.png"
 import starRating from "./images/star_rating.png"
 import featureSaveTime from "./images/feature_save_time.png"
 import featureReadMore from "./images/feature_read_more.png"
@@ -16,4 +17,4 @@ import downTriangleRed from "./images/red_down_triangle.png"
 export { logo10050, chromeLogo, starRating, 
     featureSaveTime, featureReadMore, featureJumpToYtTime, featurePdf, 
     featureBreakIntoBlocks, upRightArrow, rightArrowRed, howToUseGist, uploadFileImage,
-    rightTriangleRed, downTriangleRed };
+    rightTriangleRed, downTriangleRed, videoIcon };
